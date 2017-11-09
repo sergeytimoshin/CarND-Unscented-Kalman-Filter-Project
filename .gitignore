@@ -10,3 +10,6 @@ build/
 /Debug
 /CMakeCache.txt
 /CMakeFiles
+/.idea
+*.cbp
+/UnscentedKF
