@@ -102,11 +102,6 @@ void UKF::Initialize(MeasurementPackage meas_package) {
         x_(3) = 0;
         x_(2) = 0;
     }
-//
-//    if (fabs(x_(0)) < 0.001 and fabs(x_(1)) < 0.001) {
-//        x_(0) = 0.001;
-//        x_(1) = 0.001;
-//    }
 
     previous_timestamp_ = meas_package.timestamp_;
     is_initialized_ = true;
