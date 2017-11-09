@@ -3,3 +3,10 @@
 
 # build files
 build/
+/UnscentedKF.build
+/cmake_install.cmake
+/UnscentedKF.xcodeproj
+/CMakeScripts
+/Debug
+/CMakeCache.txt
+/CMakeFiles
